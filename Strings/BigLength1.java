@@ -22,11 +22,11 @@ public class BigLength1 {
                     n++;
                     end--;
                 }
-                temp = s.charAt(n);
+                char temp = s.charAt(n);
                 n++;
                 start = i + 1;
-                System.out.println(temp);
-                // System.out.print(count+" ");
+                //System.out.println(temp);
+                System.out.print(count+" ");
             }
         }
     }

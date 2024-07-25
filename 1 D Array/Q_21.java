@@ -28,7 +28,7 @@ public class Q_21 {
                 kam = kam + arr[i] * i;
                 System.out.print(arr[i] + " ");
             }
-            System.out.println(kam);
+            System.out.println(kam); 
         }
     }
 }

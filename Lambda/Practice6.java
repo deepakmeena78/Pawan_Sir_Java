@@ -1,15 +1,8 @@
 public class Practice6 {
     public static void main(String[] args) {
-
+        Person pn = new Person();
     }
-
-    public static void printUpperCase(String str) {
-        System.out.println(str.toUpperCase());
-    }
-
-
-    }
-
+}
 
 class Person {
     private String name;
@@ -20,7 +13,7 @@ class Person {
         this.age = age;
     }
 
-    public String toString() {
-        return "Person{name='" + name + "', age=" + age + "}";
+    public String toString(String name, String age) {
+        return "name" + name + " age" + age;
     }
 }

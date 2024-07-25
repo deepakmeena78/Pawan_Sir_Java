@@ -10,6 +10,7 @@ public class Practice7 {
     public static void main(String[] args) {
         Pr7 o = new Pr7();
         o.p7();
+
     }
 
 }
