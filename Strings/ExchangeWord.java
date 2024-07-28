@@ -8,7 +8,7 @@ public class ExchangeWord {
         String n = sc.nextLine();
 
         String[] word = n.split(" ");
-        
+
         for (int i = 0; i < word.length / 2; i++) {
             String temp = word[i];
             word[i] = word[word.length - 1 - i];
