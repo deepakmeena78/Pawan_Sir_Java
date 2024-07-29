@@ -1,8 +1,8 @@
 
 /*              X 
                X X 
-              X__X
-             X____X
+              X___X
+             X_____X
             X X X X X
  */
 import java.util.Scanner;
