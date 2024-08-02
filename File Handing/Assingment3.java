@@ -17,6 +17,6 @@ public class Assingment3 {
         FileInputStream fis = new FileInputStream("abc.ser");
         ObjectInputStream ois = new ObjectInputStream(fis);
         Test1 t2 = (Test1) ois.readObject();
-        System.out.println(t.a + "....." + t2.b);
+        System.out.println(t.a + "....." + t2.b);   
     }
 }
