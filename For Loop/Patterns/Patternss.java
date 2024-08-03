@@ -8,7 +8,7 @@ public class Patternss{
 		
 		for(int i = 1;i <= 7;i++){
 			for(int j = 1;j <= 7;j++){
-				if(j + i == 5 || j + i == 11){
+				if(j + i == 5 || j + i == 11 || i + j == ){
 					System.out.print("*");
 				}
 				else{
