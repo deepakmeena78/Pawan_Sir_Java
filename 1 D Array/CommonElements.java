@@ -40,7 +40,7 @@ public class CommonElements {
 
         }
         for (int i = 0; i < temp2.length - 1; i++) {
-            System.out.println(temp2[i]);
+            System.out.print(temp2[i] + " ");
         }
     }
 }

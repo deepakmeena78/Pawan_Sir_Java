@@ -8,6 +8,7 @@ public class RemoveDouble {
         int n = sc.nextInt();
 
         int arr[] = new int[n];
+        System.out.println("Array Element :");
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
@@ -15,7 +16,8 @@ public class RemoveDouble {
         int count = 0;
         for (int i = 0; i < arr.length; i++) {
             for (int j = i + 1; j < arr.length; j++) {
-                if (arr[i] != arr[j]) {
+                if (i == arr[j]) {
+                    i++;
                     arr[count] = arr[i];
                     count++;
                 }
