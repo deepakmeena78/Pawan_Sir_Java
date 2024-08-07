@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Linkesd1 {
+public class AddMethod1 {
     public static void main(String[] args) {
 
         LinkedList i = new LinkedList();
