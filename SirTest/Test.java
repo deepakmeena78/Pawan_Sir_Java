@@ -5,10 +5,9 @@ public class Test {
         int temp = 0;
         for (int i = 0; i < arr.length; i++) {
             for (int j = i + 1; j < arr.length; j++) {
-                if (arr[i] < arr[j]) {
+                if (arr[i] < arr[j] || i == arr.length) {
                     temp = arr[i];
                 }
-
             }
             System.out.println(" Greater " + temp);
             temp = 0;
